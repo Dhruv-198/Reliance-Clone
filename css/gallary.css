@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .gallary {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #987937;
+  }
+  .gal-1 {
+    height: 80px;
+    width: 80%;
+    margin-top: 30px;
+    background-color: white;
+  }
+  .gal-1 a {
+    color: #666;
+    font-weight: normal;
+    font-family: "robotoregular", Arial, Helvetica, sans-serif;
+    padding: 10px;
+  }
+  .gal-1 a:hover {
+    text-decoration: underline;
+  }
+  .gal-1 i {
+    color: #666;
+  }

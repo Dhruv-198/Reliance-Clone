@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.career {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #987937;
+}
+.care-1{
+    height: 135vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.c5-txt1 {
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "robotoregular", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #d3ab6e;
+    position: relative;
+  }
+  .c5-txt1::after {
+    content: " ";
+    height: 3px;
+    width: 5%;
+    background-color: #3ebd86;
+    position: absolute;
+    top: 40px;
+    left: 46%;
+    transition: 1s;
+  }
+  .career:hover .c5-txt1::after {
+    width: 7%;
+  }
+  .car-img {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+  }
+  .car-img img{
+    width: 80%;
+    height: 550px;
+  }
+  .car-para1{
+    margin-top: 10px;
+    width: 80%;
+    height: 210px;
+    color: #666666;
+    line-height: 1.75em;
+    font-size: 18px;
+  }
+  .car-para2{
+    width: 80%;
+    height: 120px;
+    color: #666666;
+    line-height: 1.75em;
+    font-size: 18px;
+  }
+  .car-para3{
+    width: 80%;
+    height: 30px;
+    color: #666666;
+    line-height: 1.75em;
+    font-size: 18px;
+  }
+  .car-para3 a{
+    color: #3cb681;
+  }
+  .car-para3 a:hover{
+    color: #f7465b;
+    cursor: pointer;
+  }
+  .car-para4{
+    width: 80%;
+    height: 30px;
+    color: #666666;
+    line-height: 1.75em;
+    font-size: 18px;
+  }
+  .car-para5 {
+    margin-top: 20px;
+    height: 50px;
+    width: 80%;
+    /* text-align: center; */
+  }
+  .car-para5  button {
+    text-decoration: none;
+    border: none;
+    padding: 15px;
+    background-color: #3ebd86;
+    color: white;
+    font-size: 18px;
+    transition: 0.1s;
+  }
+  
+  .car-para5 button:hover {
+    background-color: #123928;
+    box-shadow: 0px 5px 10px #123928;
+    transform: translateY(-10px);
+  }

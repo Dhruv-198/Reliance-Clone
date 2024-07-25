@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.urban {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #987937;
+}
+.urb-page{
+    height: 185vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.urban:hover .c5-txt1::after {
+  width: 8%;
+}
+.urb-page img{
+  height: 450px;
+  width: 90%;
+}
+.urb-txt{
+  width: 90%;
+  height: 185vh;
+}
+.urb-page div{
+  color: #666666;
+  line-height: 1.75em;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+#txt-b{
+  color: #666666;
+  line-height: 1.75em;
+  font-weight: bold;
+}
